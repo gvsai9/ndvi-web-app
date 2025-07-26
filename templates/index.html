@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NDVI Predictor</title>
+</head>
+<body>
+    <h2>NDVI Vegetation Class Predictor</h2>
+    <form action="/predict" method="post">
+        Enter NDVI value: <input type="text" name="ndvi">
+        <input type="submit" value="Predict">
+    </form>
+    <p>{{ result }}</p>
+    <hr>
+    <a href="/map">View NDVI Map</a>
+</body>
+</html>
